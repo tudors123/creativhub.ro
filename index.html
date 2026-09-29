@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webcity Ro — Agenție de Marketing Digital</title>
+  <meta name="description" content="Webcity Ro este o agenție de marketing digital din Sibiu care creează branduri remarcabile. Servicii de branding, social media, web design, SEO și publicitate digitală.">
+  <meta property="og:title" content="Webcity Ro — Agenție de Marketing Digital">
+  <meta property="og:description" content="Webcity Ro — agenție de marketing digital din Sibiu. Creăm branduri care se remarcă.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='%237C3AED'/></svg>">
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Sari la conținut</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="Webcity Ro — Homepage">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="2" width="28" height="28" rx="8" stroke="currentColor" stroke-width="2"/>
+          <path d="M6 11L9 22L12 14L15 22L18 11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20 11L22 22L24 14L26 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+        </svg>
+        Webcity Ro
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navigare principală">
+        <a href="#services">Servicii</a>
+        <a href="#about">Despre noi</a>
+        <a href="#portfolio">Portofoliu</a>
+        <a href="#process">Proces</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Comută temă">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+        </button>
+        <a href="#contact" class="btn btn-primary">Hai să vorbim</a>
+        <button class="nav-toggle" data-nav-toggle aria-label="Deschide meniul" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile nav -->
+  <div class="nav-overlay" data-nav-overlay></div>
+  <nav class="nav-mobile" id="navMobile" aria-label="Navigare mobilă">
+    <button class="nav-mobile-close" data-nav-close aria-label="Închide meniul">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    <a href="#services">Servicii</a>
+    <a href="#about">Despre noi</a>
+    <a href="#portfolio">Portofoliu</a>
+    <a href="#process">Proces</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-primary btn-lg" style="margin-top: var(--space-6);">Hai să vorbim</a>
+  </nav>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img src="./assets/hero-visual.png" alt="" loading="eager">
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Disponibil pentru proiecte noi
+        </div>
+        <h1>Creăm branduri care <span class="accent">se remarcă</span></h1>
+        <p class="hero-subtitle">Webcity Ro este o agenție de marketing digital din Sibiu care transformă ideile în experiențe vizuale memorabile. De la strategie la execuție, construim povești care cresc afaceri.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary btn-lg">Vezi portofoliu</a>
+          <a href="#contact" class="btn btn-outline btn-lg">Contactează-ne</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-count="150">150+</div>
+          <div class="stat-label">Proiecte finalizate</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="98">98%</div>
+          <div class="stat-label">Clienți mulțumiți</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="5">5+</div>
+          <div class="stat-label">Ani de experiență</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="40">40+</div>
+          <div class="stat-label">Branduri construite</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-item">Branding</span>
+        <span class="marquee-item">Social Media</span>
+        <span class="marquee-item">Web Design</span>
+        <span class="marquee-item">SEO</span>
+        <span class="marquee-item">Publicitate Digitală</span>
+        <span class="marquee-item">Content Marketing</span>
+        <span class="marquee-item">Branding</span>
+        <span class="marquee-item">Social Media</span>
+        <span class="marquee-item">Web Design</span>
+        <span class="marquee-item">SEO</span>
+        <span class="marquee-item">Publicitate Digitală</span>
+        <span class="marquee-item">Content Marketing</span>
+      </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section" id="services">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Ce facem</div>
+        <h2 class="section-title">Servicii care accelerează creșterea</h2>
+        <p class="section-desc">Oferim un spectru complet de servicii de marketing digital, fiecare adaptat obiectivelor și valorilor brandului tău.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Identitate de Brand</h3>
+          <p>Creăm identități vizuale complete — logo, paletă cromatică, tipografie și ghid de brand care comunică esența afacerii tale.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Social Media</h3>
+          <p>Strategie, crearea de conținut și management pentru Instagram, Facebook, TikTok și LinkedIn. Construim comunități angajate.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Web Design</h3>
+          <p>Site-uri rapide, responsive și optimizate pentru conversie. De la landing pages la magazine online complete.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3>SEO &amp; Optimizare</h3>
+          <p>Optimizăm vizibilitatea în motoarele de căutare prin SEO tehnic, cercetare de cuvinte cheie și content marketing strategic.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg>
+          </div>
+          <h3>Publicitate Digitală</h3>
+          <p>Campanii performante pe Google Ads, Meta Ads și TikTok Ads. Optimizare continuă pentru ROI maxim.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Content Marketing</h3>
+          <p>Articole, ghiduri, videoclipuri și campanii de email care educă, atrag și convertesc audiența ta.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section about" id="about">
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="./assets/about-team.png" alt="Echipa Webcity Ro la biroul creativ" loading="lazy">
+        </div>
+        <div class="about-content reveal">
+          <div class="section-eyebrow">Despre noi</div>
+          <h2>O echipă pasionată de creativitate și rezultate</h2>
+          <p>Webcity Ro este o agenție de marketing digital din Sibiu care ajută branduri să crească prin strategie creativă și execuție impecabilă. Suntem o echipă de designeri, strategi și specialiști în marketing care cred că designul bun vinde.</p>
+          <p>Lucrăm cu start-up-uri, branduri locale și companii din diverse domenii, abordând fiecare proiect cu aceeași dedicare și atenție la detalii. De la magazine online până la campanii complete de marketing digital, livrăm rezultate măsurabile.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Strategie personalizată</span>
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Echipă multidisciplinară</span>
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Raportare transparentă</span>
+            </div>
+            <div class="about-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Rezultate măsurabile</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section class="section" id="portfolio">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Portofoliu</div>
+        <h2 class="section-title">Proiecte care vorbesc de la sine</h2>
+        <p class="section-desc">Fiecare proiect este o poveste despre colaborare, creativitate și rezultate. Iată o selecție din lucrările noastre recente.</p>
+      </div>
+
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">Toate</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="social">Social Media</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="seo">SEO</button>
+        <button class="filter-btn" data-filter="ads">Publicitate</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Populat dinamic din API -->
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="section process" id="process">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Cum lucrăm</div>
+        <h2 class="section-title">Un proces clar, de la idee la rezultat</h2>
+        <p class="section-desc">Metodologia noastră în 4 pași asigură că fiecare proiect este livrat la timp, la buget și peste așteptări.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step reveal">
+          <h3>Descoperire</h3>
+          <p>Analizăm piața, competitorii și publicul țintă. Definim obiective clare și KPI-uri măsurabile pentru proiect.</p>
+        </div>
+        <div class="process-step reveal">
+          <h3>Strategie</h3>
+          <p>Dezvoltăm planul creativ și strategic. Mapăm direcția, mesajele și canalele prin care vom atinge rezultatele.</p>
+        </div>
+        <div class="process-step reveal">
+          <h3>Execuție</h3>
+          <p>Design, dezvoltare, producție de conținut. Echipa noastră creează fiecare element cu atenție la detalii.</p>
+        </div>
+        <div class="process-step reveal">
+          <h3>Optimizare</h3>
+          <p>Monitorizăm performanța, analizăm datele și optimizăm continuu pentru a maximiza ROI-ul.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="section" id="testimonials">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Testimoniale</div>
+        <h2 class="section-title">Ce spun clienții noștri</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Webcity Ro a transformat complet brandul nostru. De la identitatea vizuală până la strategia digitală, totul a fost executat impecabil. Vânzările au crescut cu 45% în primele 3 luni."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AM</div>
+            <div>
+              <div class="testimonial-name">Andrei Marin</div>
+              <div class="testimonial-role">CEO, Lumina Cosmetics</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Echipa Webcity Ro a crescut comunitatea noastră de social media de la zero la peste 120.000 de urmăritori. Conținutul creat este mereu fresh și aliniat cu valorile brandului."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">ED</div>
+            <div>
+              <div class="testimonial-name">Elena Dumitrescu</div>
+              <div class="testimonial-role">Marketing Director, EcoFresh</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Website-ul nou ne-a triplat rata de conversie. Webcity Ro a înțeles exact ce aveam nevoie și a livrat un produs care depășește așteptările. Recomand fără rezerve."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RP</div>
+            <div>
+              <div class="testimonial-name">Răzvan Popa</div>
+              <div class="testimonial-role">CTO, TechFlow</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA / CONTACT ===== -->
+    <section class="section cta" id="contact">
+      <div class="cta-inner">
+        <div class="cta-content reveal">
+          <div class="section-eyebrow">Contact</div>
+          <h2>Hai să construim ceva remarcabil împreună</h2>
+          <p>Povestește-ne despre proiectul tău și îți vom răspunde în 24 de ore cu o propunere personalizată. Fără obligații, doar idei bune.</p>
+          <div class="cta-contact">
+            <a href="mailto:contact@creativhub.ro" class="cta-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              contact@creativhub.ro
+            </a>
+            <a href="tel:+40754070084" class="cta-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              0754 070 084
+            </a>
+            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="cta-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Sibiu, România
+            </a>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-message" id="formMessage">
+              Mulțumim pentru mesaj! Te vom contacta în curând.
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Nume</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Numele tău" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="email@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="company">Companie</label>
+              <input type="text" id="company" name="company" class="form-input" placeholder="Numele companiei (opțional)">
+            </div>
+            <div class="form-group">
+              <label for="service">Serviciu dorit</label>
+              <select id="service" name="service" class="form-select">
+                <option value="">Alege un serviciu</option>
+                <option value="branding">Identitate de Brand</option>
+                <option value="social">Social Media</option>
+                <option value="web">Web Design</option>
+                <option value="seo">SEO &amp; Optimizare</option>
+                <option value="ads">Publicitate Digitală</option>
+                <option value="content">Content Marketing</option>
+                <option value="other">Altul</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Mesaj</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Povestește-ne despre proiectul tău..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Trimite mesajul</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="2" width="28" height="28" rx="8" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 11L9 22L12 14L15 22L18 11" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 11L22 22L24 14L26 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+            </svg>
+            Webcity Ro
+          </a>
+          <p>Agenție de marketing digital care creează branduri remarcabile. Strategie, design și execuție sub același acoperiș.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Servicii</h4>
+          <ul>
+            <li><a href="#services">Identitate de Brand</a></li>
+            <li><a href="#services">Social Media</a></li>
+            <li><a href="#services">Web Design</a></li>
+            <li><a href="#services">SEO</a></li>
+            <li><a href="#services">Publicitate</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Companie</h4>
+          <ul>
+            <li><a href="#about">Despre noi</a></li>
+            <li><a href="#portfolio">Portofoliu</a></li>
+            <li><a href="#process">Proces</a></li>
+            <li><a href="#testimonials">Testimoniale</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:contact@creativhub.ro">contact@creativhub.ro</a></li>
+            <li><a href="tel:+40754070084">0754 070 084</a></li>
+            <li><a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Sibiu, România</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Webcity Ro. Toate drepturile rezervate.</p>
+        <div class="footer-bottom-links">
+          <a href="#home">Înapoi sus</a>
+          <a href="./admin/" style="opacity:0.5;font-size:0.8em;">Admin</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
